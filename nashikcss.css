@@ -1,0 +1,718 @@
+*{
+ margin:  0;
+ padding: 0;
+  font-family: sans-serif;
+  scroll-behavior :smooth;
+}
+
+header{
+      
+      height: 100vh;
+	  width : 100vw;
+	background-image: url("aerial-alpine-ceresole-reale-desktop-backgrounds-1562.jpg");
+
+      background-size: cover;
+      background-position:center;
+	  background-attachment: fixed;
+	  backface-visibility: hidden;
+	  animation: header 15s linear infinite 1s;
+	  animation-timing-function:ease-in-out;
+	  
+ }
+
+@keyframes header{
+	
+	
+	25%{
+		
+		background-image: url("photo-of-toronto-cityscape-at-night-2478248.jpg");
+	}
+	50%{
+		
+		background-image: url("photo-of-skyline-at-night-3075993.jpg");
+	}
+	75%{
+		
+		background-image: url("imattsmart-Q-QWniS3C34-unsplash.jpg");
+	}
+	 100%{
+		
+		background-image: url("green-and-brown-leaves-on-gray-surface-1640572.jpg");
+	}
+	
+	
+	
+}
+
+
+
+ ul { 
+     margin-top: 25px;
+     margin-right: 500px;
+     float:right;  
+     list-style-type:none;
+     
+ }
+ ul li{
+      display: inline-block ;
+ }
+ ul li a{
+    text-decoration: none ;
+    color: aqua;
+    padding:5px 20px;
+    border:1px solid white;
+    transition: 1.0s ease;
+ }
+
+ ul li a:hover{
+     background-color :aqua;
+     color:white;
+ }
+ ul li.active a{
+      background-color:aqua;
+      color: white;
+ }
+ .title{
+     position: absolute;
+     top: 40%;
+     left: 25%;
+     transform: translate(-50% ,-50%);
+     
+ }
+.subtitle{
+	position: absolute;
+     top: 55%;
+	 left: 45%;
+     
+     
+}
+
+
+
+.logo{
+     position: absolute;
+     left:20px;
+
+     top:5px;
+}
+.logo img{
+     float:right;
+     width: 200px;
+     height: auto;
+     
+  }
+.kmstone{
+     position: absolute;
+     top: 70%;
+     left:30px;
+}
+.kmstone img{
+     width: 250px;
+}
+.main{
+     max-width: 1200px;
+    
+     margin-left: 500px;
+}
+
+.title h1
+{
+     
+     
+          
+          color: #fff;
+          font-family:"EngraversGothic BT";
+        font-size: 100px;
+	
+ background: -webkit-linear-gradient(aqua,lightgreen); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+          
+          
+  font-size: 100px;
+	
+}
+.cityvector{
+	margin-right: 50px;
+}
+
+	
+	.aboutcity{
+     
+	height: 40%; 
+		 background-image: url("18304.jpg");
+		
+		background-size:cover;
+		           background-position: center;
+		 
+	   
+       
+		
+      
+}
+	
+	
+	
+.atitle{
+	padding-top:23px; 
+	
+}
+
+
+
+.info{
+	
+	margin-top: 25px;
+	margin-left: 750px;;
+	     width:45%;
+	  overflow:hidden;                                                                                                    
+	  animation: silde-right 10 sec;          
+	
+}
+.info p{
+	font-family:Bahnschrift Light;
+	font-size: 18;
+	color: white;
+	text-align: justify;
+	
+}
+
+.cityimg{
+border-color:#E10BF2;	
+position: absolute;
+left:150px;
+	
+
+	
+}
+.cityimg img{
+	
+    
+	margin-top: 25px;
+	height: 250px;
+	
+	
+}
+
+.cityvector img
+
+{   
+	height: 400px;
+	margin-top: 10%;
+	margin-left:65%;
+}
+	
+
+
+
+.Facility{
+	height: 70%;
+	background-attachment: fixed;
+}
+.factitle h1{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 45;
+	background: -webkit-linear-gradient(yellow,orange);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.feature{
+	
+	
+	
+	margin-left: 150px;
+	margin-right: 150px;
+	height: 70%;
+	width:60%;
+}
+
+
+.bus img{
+	position: absolute;
+	height: 15%;
+	margin-top: 30px;
+	margin-left:150px;
+}
+
+.bus h2{
+	position: absolute;
+	margin-left: 178px;
+    margin-top: 150px;
+	
+}
+.bus p{
+	position: absolute;
+	height:5%; 
+	width: 10%;
+	text-align: justify;
+	margin-top: 190px;
+	margin-left: 130px;
+}
+
+
+.rest img{
+	position: absolute;
+	height: 15%;
+	margin-top: 30px;
+	margin-left:340px;
+}
+.rest h2{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 330px;
+    
+}
+.rest p{
+	
+	position: absolute;
+	height:5%; 
+	width: 10%;
+	text-align: justify;
+	margin-top:190px;
+	margin-left: 320px;
+	
+}
+.Railway img{
+	position: absolute;
+	height: 15%;
+	margin-top: 30px;
+	margin-left:540px;
+}
+.Railway h2{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 550px;
+}
+.Railway p{
+	position: absolute;
+	height:5%; 
+	width: 10%;
+	text-align: justify;
+	margin-top:185px;
+	margin-left: 520px;
+}
+
+.hospital img{
+	position: absolute;
+	height: 15%;
+	margin-top: 30px;
+	margin-left:720px; 
+}
+.hospital h2{
+	position: absolute;
+	margin-top: 150px;
+	margin-left:725px; 
+}
+.hospital p{
+	position: absolute;
+	height:5%; 
+	width: 10%;
+	text-align: justify;
+	margin-top:185px;
+	margin-left: 700px;
+}
+
+.hotels img{
+	
+	position: absolute;
+	height: 15%;
+	margin-top: 30px;
+	margin-left:910px;
+	
+}
+.hotels h2{
+	position: absolute;
+	margin-top: 150px;
+	margin-left:925px; 
+}
+.hotels p{
+	position: absolute;
+	height:5%; 
+	width: 10%;
+	text-align: justify;
+	margin-top:185px;
+	margin-left: 890px;
+}
+
+.sofcity{
+	background-image: url("gjkh.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+.sofcity img {
+	
+	
+    background-image: url("scenic-photo-of-lake-surrounded-by-trees-1903702.jpg");
+	height: 300px;
+	width: 700px;
+}
+.softitle h1{
+	
+	padding-top: 50px;
+	text-align: center;
+	font-size: 45;
+	background: -webkit-linear-gradient( yellow,orange);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	 animation: softitle 2s forwards 0s ease-in-out;
+}
+
+@keyframes softitle{
+    0%{
+        transform: rotate(0) translateY(-90);
+        opacity: 0;
+        }
+    75%{
+        transform: rotate(0) translateY(50px);
+        opacity: .76;
+        }
+    100%{
+        transform: rotate(0) translateY(0);
+        opacity: 1;
+  
+	   }
+}
+.para{
+		position: absolute;
+		margin-top: 50px;
+		width: 800px;
+		margin-right: 250px;
+		animation: para 2s forwards 0s ease-in-out;
+}
+@keyframes para{
+    0%{
+        transform: translateX(900px);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(xx) translateX(0);
+        opacity: 1;
+        }
+}
+
+	.para p{
+		width: 700px;
+		margin-left: 750px;
+		margin-right: 250px;
+		text-align: justify;
+		color:#242424;
+		font-size: 20;
+		 
+	}
+	
+.imagesilder{
+	position: absolute;
+	height: 55%;
+	width: 35%;
+	outline-color: aqua;
+    outline-style: solid;
+	outline-width: thick;
+
+      margin-top:50px;
+     margin-left: 150px;
+	background-image: url("nashik_exploring-20200522-0005wd.jpg");
+
+      background-size: cover;
+      background-position:center;
+	  
+	  
+	  animation: imageslider 15s linear infinite 1s;
+	  animation-timing-function:ease-in-out;
+}
+
+	.readmbut  ul {
+		position: absolute;
+	
+     margin-top: 500px;
+     
+		margin-left: 750px;
+     float:right;  
+     list-style-type:none;
+     
+ }
+.readmbut ul li{
+      display: inline-block ;
+	
+ }
+ .readmbut ul li a{
+    text-decoration: none ;
+	 	background :linear-gradient(to right,  #DA22FF , #9733EE );
+			
+    color:white;
+	     padding:5px 20px;
+    border:1px solid white;
+	 
+	 
+    transition: background 2.0s ease;
+ }
+
+
+ .readmbut ul li a:hover{
+     background :linear-gradient(to right,#0DF89C,#11ECF3); 
+	
+	     color:white;
+	 
+ }#footer {
+	position: absolute;
+	background:#323232;
+	width:1500;
+	height: 300px;
+	
+	
+	
+}
+#footer img{
+	position: absolute;
+	height : 190px;
+	margin-top: 60px;
+
+	
+
+
+}
+.contactus h1{
+	position: absolute;
+	font-family : Spinnaker;
+    text-decoration: bold; 
+font-size: 40px;
+	color: aqua;
+	margin-left: 50px;
+}
+#footer p{
+	
+	
+color: white;
+
+}
+.name{
+	
+	position: absolute;
+	margin-left: 70px;
+	margin-top: 45px;
+}
+.name p{
+	
+	
+	margin-top: 30px;
+	font-size: 20px;
+	
+	
+}
+.email {
+	
+	margin-top: 35px;
+	
+	
+}
+.location{
+	margin-top: 35px;
+}
+.line1{
+	
+	margin-left: 400px;
+	
+	
+}
+.line1 img{
+	
+	height: 200px;
+}
+.mynashikcity{
+	
+	position: absolute;
+	width: 450px;
+	margin-left: 500px;
+}
+.mynashikcity h1{
+	margin-top: 5px;
+	margin-left: 70px;
+	
+	font-family: "Spinnaker";
+    text-decoration: bold; 
+    font-size: 40px;
+	color: aqua;
+	
+}
+.mynashikcity p{
+	
+	position: absolute;
+	font-family: sans-serif;
+	text-align: justify;
+	margin-top:30px;
+	
+	
+}
+.learnmbut ul  {
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 650px;
+	
+	
+}
+.learnmbut ul li a{
+    text-decoration: none ;
+	 	
+		background :linear-gradient(to right,yellow,orange); 	
+    color:white;
+	     padding:5px 20px;
+    border:1px solid white;
+	 
+	 
+    transition: background 2.0s ease;
+ }
+ .learnmbut ul li a:hover{
+     
+	background :linear-gradient(to right,  #DA22FF , #9733EE );
+	     color:white;
+	 
+ }
+.line2{
+	position: absolute;
+	margin-left:1010px;
+		
+	
+	
+}
+.line2 img{
+	
+	height: 200px;
+}
+.share h1{
+	position: absolute;
+	font-family: "Spinnaker";
+    text-decoration: bold; 
+font-size: 40px;
+	color: aqua;
+	margin-left: 1200px;
+	margin-top: 10px;
+}
+
+.icon img {
+	margin-top: 120px;
+	height: 50px;
+}
+.insta {
+	
+	margin-left: 1160px;
+	
+}
+ 
+
+.fb {
+	
+	margin-left: 1250px;
+	
+}
+.you {
+	
+	margin-left: 1330px;
+}
+.copy p{
+	margin-left: 580px;
+	
+ margin-top : 275px;
+}
+.plan{
+	
+	height: 100vh;
+}
+.plan h1{
+	
+	padding-top: 30px;
+	text-align: center;
+	font-size: 45;
+	background: -webkit-linear-gradient(yellow,orange);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.plan img{
+	margin-top:50px;
+	margin-left: 300px;
+	
+}
+.spot h2{
+	position: absolute;
+	color: crimson;
+ margin-left:280px; 
+}
+.date{
+	position: absolute;
+	margin-left:500px;
+	color: crimson;
+}
+.hotel h2
+{
+	
+	position: absolute;
+		color: crimson;
+ margin-left:725px;
+}
+.travel h2{
+	position: absolute;
+		color: crimson;
+ margin-left:930px;
+}
+	
+.reach{
+	position: absolute;
+		color: crimson;
+ margin-left:1120px;
+	
+}
+.imgcon{
+	position: absolute;
+	background-image: url("place.jpg");
+	background-size: cover;
+	height: 40%;
+	width: 30%;
+	margin-left: 150px;
+	outline-color: aqua;
+    outline-style: solid;
+	outline-width: thick;
+}
+.content p{
+	
+	width: 700px;
+	margin-top: 100px;
+		margin-left: 700px;
+		margin-right: 250px;
+		text-align: justify;
+		color:#242424;
+		font-size: 20;
+}
+	
+	.readmorebut  ul {
+		position: absolute;
+	
+     margin-top: 30px;
+     
+		margin-left: 700px;
+     float:right;  
+     list-style-type:none;
+     
+ }
+.readmorebut ul li{
+      display: inline-block ;
+	
+ }
+ .readmorebut ul li a{
+    text-decoration: none ;
+	 -webkit-background-clip :linear-gradient(to right,  #DA22FF , #9733EE) ;
+			
+    color:white;
+	     padding:5px 20px;
+    border:1px solid white;
+	 
+	 
+    transition: background 2.0s ease;
+ }
+
+
+ .readmorebut ul li a:hover{
+     background :linear-gradient(to right,#0DF89C,#11ECF3); 
+	
+	     color:white;
+	 
+ }
